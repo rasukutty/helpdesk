@@ -819,7 +819,9 @@ class HDTicket(Document):
             self.status = "Open"
             if self.ticket_status != "Ticket Initiated":
             # frappe.errprint("My Test message")
-                self.ticket_status = "Response Received from Requestor"
+                # self.ticket_status = "Response Received from Requestor"
+                # self.ticket_status = "Response Received from Requestor"
+                self.ticket_status = "Response Received from Requestor"   # ✅ correct
                 
         # If communication is outgoing, it must be a reply from agent
         if c.sent_or_received == "Sent":
