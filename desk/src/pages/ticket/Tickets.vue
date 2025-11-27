@@ -10,7 +10,7 @@
           :current-view="currentView"
         />
       </template>
-      <!-- <template #right-header>
+      <template #right-header>
         <RouterLink
           :to="{ name: isCustomerPortal ? 'TicketNew' : 'TicketAgentNew' }"
         >
@@ -20,8 +20,8 @@
             </template>
           </Button>
         </RouterLink>
-      </template> -->
-      <template #right-header>
+      </template>
+      <!-- <template #right-header>
         <RouterLink
           v-if="isCustomerPortal"
           :to="{ name: 'TicketNew' }"
@@ -32,7 +32,7 @@
             </template>
           </Button>
         </RouterLink>
-      </template>
+      </template> -->
     </LayoutHeader>
     <ListViewBuilder
       ref="listViewRef"

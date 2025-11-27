@@ -8,9 +8,9 @@
       <!-- title -->
       <span>{{ title }}</span>
       <!-- Button which emits Empty State Action -->
-      <!-- <Button label="Create" @click="emit('emptyStateAction')" variant="subtle">
+      <Button label="Create" @click="emit('emptyStateAction')" variant="subtle">
         <template #prefix><FeatherIcon name="plus" class="h-4" /></template>
-      </Button> -->
+      </Button>
     </div>
   </div>
 </template>
